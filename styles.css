@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #111;
+  background: #fff;
+  padding: 4rem 1.5rem;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+header h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.principle {
+  margin-bottom: 2.5rem;
+}
+
+.principle-number {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.principle h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.principle p {
+  font-size: 1.125rem;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.principle blockquote {
+  margin: 0 0 0.75rem 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid #ddd;
+  font-size: 1.125rem;
+  color: #333;
+  line-height: 1.7;
+}
+
+.principle cite {
+  display: block;
+  font-size: 0.875rem;
+  font-style: italic;
+  color: #666;
+}
+
+.principle cite a {
+  color: #666;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.principle cite a:hover {
+  color: #111;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+footer a {
+  color: #666;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+footer a:hover {
+  color: #111;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 2rem 1rem;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  header {
+    margin-bottom: 3rem;
+  }
+  .principle {
+    margin-bottom: 2.5rem;
+  }
+}
